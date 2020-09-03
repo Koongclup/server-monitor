@@ -9,7 +9,7 @@ services:
     ports: 
     - "9104:9104"
     environment: 
-    - "DATA_SOURCE_NAME=root:123456@(10.0.0.181:3333)/"
+    - "DATA_SOURCE_NAME=root:@(127.0.0.1:8080)/"
   # mysqlexporter2:
   #   image: prom/mysqld-exporter
   #   networks:
